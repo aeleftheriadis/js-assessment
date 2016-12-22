@@ -11,3 +11,5 @@ patch:
   'npm:qs:20140806-1':
     - grunt-contrib-watch > tiny-lr-fork > qs:
         patched: '2016-12-22T07:49:08.419Z'
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-12-22T07:53:37.639Z'
