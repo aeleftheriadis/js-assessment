@@ -40,3 +40,10 @@ patch:
         patched: '2017-05-26T23:38:10.709Z'
     - grunt-contrib-connect > connect > serve-favicon > ms:
         patched: '2017-05-26T23:38:10.709Z'
+  'npm:debug:20170905':
+    - mocha > debug:
+        patched: '2017-09-29T23:38:06.140Z'
+    - grunt-contrib-watch > tiny-lr > debug:
+        patched: '2017-09-29T23:38:06.140Z'
+    - grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2017-09-29T23:38:06.140Z'
