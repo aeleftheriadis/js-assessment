@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -47,3 +47,40 @@ patch:
         patched: '2017-09-29T23:38:06.140Z'
     - grunt-contrib-watch > tiny-lr > body-parser > debug:
         patched: '2017-09-29T23:38:06.140Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt-contrib-jshint > jshint > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-05T03:26:04.923Z'
